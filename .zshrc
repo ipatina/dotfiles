@@ -8,12 +8,8 @@ unset SSH_ASKPASS
 plugins=(git)
 
 [[ -f ~/.zshf ]] && source ~/.zshf
+[[ -f ~/.zsha ]] && source ~/.zsha
 source $ZSH/oh-my-zsh.sh
-
-# convenience aliases for editing configs
-alias ev='vim ~/.vimrc'
-alias et='vim ~/.tmux.conf'
-alias ez='vim ~/.zshrc'
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 

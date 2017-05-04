@@ -1,0 +1,8 @@
+alias ev='vim ~/.vimrc'
+alias et='vim ~/.tmux.conf'
+alias ez='vim ~/.zshrc'
+alias ea='vim ~/.zshra'
+
+# Git
+alias gc='git clone'
+alias grau='git remote add upstream'
