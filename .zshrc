@@ -2,10 +2,11 @@ export ZSH=$HOME/.oh-my-zsh
 export TERM="xterm-256color"
 
 ZSH_THEME="robbyrussell"
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor root)
 
 unset SSH_ASKPASS
 
-plugins=(git)
+plugins=(git zsh-syntax-highlighting)
 
 [[ -f ~/.zshf ]] && source ~/.zshf
 [[ -f ~/.zsha ]] && source ~/.zsha
