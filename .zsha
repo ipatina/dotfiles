@@ -7,9 +7,13 @@ alias ev='vim ~/.vimrc'
 alias et='vim ~/.tmux.conf'
 alias ez='vim ~/.zshrc'
 alias ea='vim ~/.zsha'
+alias sz='source ~/.zshrc'
+alias pdi='cd /opt/pentaho/pdi-ee-client-8.0-QAT-87/data-integration/'
+alias spoon='/opt/pentaho/pdi-ee-client-8.0-QAT-87/data-integration/spoon.sh'
+alias sp='./spoon.sh'
 
 # Git
-alias gc='git clone'
+alias gcn='git clone'
 alias grau='git remote add upstream'
 
 # RPM

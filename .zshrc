@@ -16,7 +16,8 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/alina/.sdkman"
-[[ -s "/home/alina/.sdkman/bin/sdkman-init.sh" ]] && source "/home/alina/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="/home/mapr/.sdkman"
+[[ -s "/home/mapr/.sdkman/bin/sdkman-init.sh" ]] && source "/home/mapr/.sdkman/bin/sdkman-init.sh"
