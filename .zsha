@@ -4,34 +4,12 @@ func() {
 }
 alias jj='java -jar'
 alias ev='vim ~/.vimrc'
-alias et='vim ~/.tmux.conf'
+
 alias ez='vim ~/.zshrc'
 alias ea='vim ~/.zsha'
 alias sz='source ~/.zshrc'
-alias pdi='cd /opt/pentaho/pdi-ee-client-8.0-QAT-87/data-integration/'
-alias spoon='/opt/pentaho/pdi-ee-client-8.0-QAT-87/data-integration/spoon.sh'
-alias sp='./spoon.sh'
+alias jn='~/anaconda3/bin/jupyter notebook'
 
 # Git
 alias gcn='git clone'
 alias grau='git remote add upstream'
-
-# RPM
-# install package
-alias ri='rpm -ivh'
-# check dependencies before installing
-alias rd='rpm -qpR'
-# check if installed
-alias rc='rpm -q'
-# list files of package
-alias rl='rpm -ql'
-# recently installed
-alias rr='rpm -qa --last'
-# list all installed packages
-alias ra='rpm -qa'
-# upgrade package
-alias ru='rpm -Uvh'
-# remove package
-alias re='rpm -evv'
-# check wich package file belongs
-alias rf='rpm -qf'
